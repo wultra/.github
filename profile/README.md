@@ -8,8 +8,8 @@ Thanks to our products, financial institutions can meet compliance with the regu
 
 ## Our Products
 
-- PowerAuth - Passwordless Strong Customer Authentication
-- Malwarelytics - Mobile In-App Protection for iOS and Android
+- PowerAuth - Passwordless Strong Customer Authentication (PSD2/SCA)
+- Malwarelytics - Mobile In-App Protection for iOS and Android (OWASP MASVS)
 - Open-Source Goodies: Dynamic TLS/SSL Pinning, Passphrase Meter, Cryptographic Utilities
 
 [Learn More](https://www.wultra.com/?utm_source=github&utm_medium=profile_readme&utm_campaign=github_intro)

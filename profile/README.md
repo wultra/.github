@@ -4,7 +4,7 @@ With the life savings of millions of people around the world at risk and bad act
 
 We provide security solutions for financial internet and mobile apps. Thanks to our products, financial institutions can meet compliance with the regulatory requirements and, more importantly, detect and stop malware attacks and protect their apps against a wide range of cyber threats.
 
-[Learn More](https://www.wultra.com/?utm_source=github&utm_medium=profile_readme&utm_campaign=dx_intro)
+[Learn More](https://www.wultra.com/?utm_source=github&utm_medium=profile_readme&utm_campaign=github_intro)
 
 ## Products
 
@@ -12,8 +12,10 @@ We provide security solutions for financial internet and mobile apps. Thanks to 
 - Malwarelytics - Mobile In-App Protection for iOS and Android
 - Open-Source Goodies: Dynamic TLS/SSL Pinning, Passphrase Meter, Cryptographic Utilities
 
+[Learn More](https://www.wultra.com/products?utm_source=github&utm_medium=profile_readme&utm_campaign=github_intro)
+
 ## We're Hiring!
 
 Help us protect digital finance worldwide.
 
-[See Open positions](https://www.wultra.com/careers)
+[See Open positions](https://www.wultra.com/careers?utm_source=github&utm_medium=profile_readme&utm_campaign=github_intro)

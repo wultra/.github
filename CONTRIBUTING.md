@@ -1,4 +1,4 @@
-# Welcome to Wultra contributing guide
+# Welcome to Wultra Contributing Guide
 
 Thank you for investing your time in contributing to our project!
 

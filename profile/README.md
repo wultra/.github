@@ -2,9 +2,9 @@
 
 ![Wultra](https://github.com/wultra/.github/blob/main/profile/cover.png?raw=true)
 
-With the life savings of millions of people around the world at risk and bad actors planning increasingly sophisticated attack vectors, Wultra serves as a guardian of digital finance by securing and protecting leading banks and fintech companies with meaningful security solutions for their internet and mobile apps.
+With the life savings of millions of people worldwide at risk and bad actors planning increasingly sophisticated attack vectors, Wultra is a guardian of digital finance by securing and protecting leading banks and fintech companies with meaningful security solutions for their internet and mobile apps.
 
-Thanks to our products, financial institutions can meet compliance with the regulatory requirements and, more importantly, detect and stop malware attacks and protect their apps against a wide range of cyber threats.
+Thanks to our products, financial institutions can meet compliance with regulatory requirements and, more importantly, detect and stop malware attacks and protect their apps against a wide range of cyber threats.
 
 ## Our Products
 

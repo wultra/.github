@@ -1,6 +1,5 @@
 name: Feature
 description: New Feature
-title: "[Feature]: "
 type: 'Feature'
 projects: ["wultra/43"]
 

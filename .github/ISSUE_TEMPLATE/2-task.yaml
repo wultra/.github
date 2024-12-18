@@ -1,0 +1,14 @@
+name: Task
+description: New Task
+title: "[Task]: "
+type: 'Task'
+projects: ["wultra/43"]
+
+body:
+  - type: textarea
+    id: task-spec
+    attributes:
+      label: Task specification
+      placeholder: We need to..
+    validations:
+      required: false

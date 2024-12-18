@@ -1,0 +1,47 @@
+name: Bug
+description: New Bug
+title: "[Bug]: "
+type: 'Bug'
+projects: ["wultra/43"]
+
+body:
+
+  - type: input
+    id: bug-affected-products
+    attributes:
+      label: Affected product(s) and version(s)
+      placeholder: "Affected product(s) and version(s)"
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: "Environment"
+    validations:
+      required: false
+  
+  - type: textarea
+    id: bug-steps-result-current-expected
+    attributes:
+      label: Steps to reproduce, current result, expected result
+      placeholder: "Steps to reproduce, current result, expected result.."
+    validations:
+      required: false
+   
+  - type: textarea
+    id: log-output
+    attributes:
+      label: Log output
+      placeholder: "Log snippets.."
+    validations:
+      required: false
+      
+  - type: input
+    id: jira-issue-code
+    attributes:
+      label: JIRA issue code
+      placeholder: "Add JIRA issue code as text"
+    validations:
+      required: false

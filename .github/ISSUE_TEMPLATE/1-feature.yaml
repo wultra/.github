@@ -1,0 +1,47 @@
+name: Feature
+description: New Feature
+title: "[Feature]: "
+type: 'Feature'
+projects: ["wultra/43"]
+
+body:
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Description
+      placeholder: "Add description.."
+    validations:
+      required: false
+
+  - type: textarea
+    id: feature-acceptance-criteria
+    attributes:
+      label: Acceptance criteria
+      placeholder: "Add acceptance criteria.."
+    validations:
+      required: false
+
+  - type: textarea
+    id: feature-technical-specification
+    attributes:
+      label: Technical specification
+      placeholder: "Add technical specification.."
+    validations:
+      required: false
+
+  - type: textarea
+    id: feature-qa-specification
+    attributes:
+      label: QA specification
+      placeholder: "For BE tasks, please add: DB changes (table, column, …) and migration guidelines; Endpoint changes and migration guidelines; For FE/App tasks, please add build and App info."
+    validations:
+      required: false
+
+  - type: input
+    id: jira-issue-code
+    attributes:
+      label: JIRA issue code
+      placeholder: "Add JIRA issue code as text"
+    validations:
+      required: false

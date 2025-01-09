@@ -1,6 +1,5 @@
 name: Bug
 description: New Bug
-title: "[Bug]: "
 type: 'Bug'
 projects: ["wultra/43"]
 

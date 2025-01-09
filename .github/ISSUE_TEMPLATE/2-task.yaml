@@ -1,6 +1,5 @@
 name: Task
 description: New Task
-title: "[Task]: "
 type: 'Task'
 projects: ["wultra/43"]
 

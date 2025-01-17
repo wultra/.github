@@ -36,11 +36,3 @@ body:
       placeholder: "For BE tasks, please add: DB changes (table, column, …) and migration guidelines; Endpoint changes and migration guidelines; For FE/App tasks, please add build and App info."
     validations:
       required: false
-
-  - type: input
-    id: jira-issue-code
-    attributes:
-      label: JIRA issue code
-      placeholder: "Add JIRA issue code as text"
-    validations:
-      required: false

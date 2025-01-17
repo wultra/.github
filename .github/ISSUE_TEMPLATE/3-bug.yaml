@@ -36,11 +36,3 @@ body:
       placeholder: "Log snippets.."
     validations:
       required: false
-      
-  - type: input
-    id: jira-issue-code
-    attributes:
-      label: JIRA issue code
-      placeholder: "Add JIRA issue code as text"
-    validations:
-      required: false

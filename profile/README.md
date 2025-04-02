@@ -2,14 +2,17 @@
 
 ![Wultra](https://github.com/wultra/.github/blob/main/profile/cover.png?raw=true)
 
-With the life savings of millions of people worldwide at risk and bad actors planning increasingly sophisticated attack vectors, Wultra is a guardian of digital finance by securing and protecting leading banks and fintech companies with meaningful security solutions for their internet and mobile apps.
+[Wultra](https://wultra.com) equips banks and fintech companies with a seamless, post-quantum authentication solution that fortifies security while ensuring a smooth transition.
 
-Thanks to our products, financial institutions can meet compliance with regulatory requirements and, more importantly, detect and stop malware attacks and protect their apps against a wide range of cyber threats.
+Powered by quantum-resistant cryptography, our developer-friendly technology delivers bulletproof security and a passwordless user experience while complying with global regulations. Trusted by financial institutions worldwide, Wultra's solutions meet stringent standards like PSD3/PSR1 and eIDAS 2.0 while offering superior protection against evolving cyber threats.
 
 ## Our Products
 
-- PowerAuth - Passwordless Strong Customer Authentication (PSD2/SCA)
+- Mobile-First Authentication - Passwordless Strong Customer Authentication (PSD3/SCA)
 - Malwarelytics - Mobile In-App Protection for iOS and Android (OWASP MASVS)
+- Talisman - Ultimate FIDO2 hardware token for visual transaction confirmations
+- Advanced Facial Biometrics - Cutting-edge identity verification solution
+- Dynamic TLS/SSL Certificate Pinning - Over-the-air exchange of pinned certificates for mobile apps.
 - Open-Source Goodies: Dynamic TLS/SSL Pinning, Passphrase Meter, Cryptographic Utilities
 
 [Learn More](https://www.wultra.com/?utm_source=github&utm_medium=profile_readme&utm_campaign=github_intro)

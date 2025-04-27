@@ -1,6 +1,6 @@
 # About Us
 
-![Wultra](https://github.com/wultra/.github/blob/main/profile/cover.jpg?raw=true)
+![Wultra](https://github.com/wultra/.github/blob/main/profile/cover-kc.jpg?raw=true)
 
 [Wultra](https://wultra.com) equips banks and fintech companies with a seamless, post-quantum authentication solution that fortifies security while ensuring a smooth transition.
 

@@ -8,7 +8,7 @@ Powered by quantum-resistant cryptography, our developer-friendly technology del
 
 ## Our Products
 
-- [Mobile-First Authentication](https://www.wultra.com/products/mobile-first-authentication?utm_source=github&utm_medium=profile_readme&utm_campaign=github_intro) - Passwordless Strong Customer Authentication (PSD3/SCA) for mobile devices
+- [Mobile-First Authentication](https://www.wultra.com/products-new/mobile-first-authentication?utm_source=github&utm_medium=profile_readme&utm_campaign=github_intro) - Passwordless Strong Customer Authentication (PSD3/SCA) for mobile devices
 - [Talisman](https://www.wultra.com/products-new/talisman-fido2-hardware-token?utm_source=github&utm_medium=profile_readme&utm_campaign=github_intro) - Ultimate FIDO2 hardware token for visual transaction confirmations and compliance with PSD3/PSR
 - [Digital ID Wallet Gateway](https://www.wultra.com/products-new/digital-id-wallet-gateway?utm_source=github&utm_medium=profile_readme&utm_campaign=github_intro) - Solution to issue and accept attestations from digital ID wallets (EUDI-W)
 - [Identity Verification](https://www.wultra.com/products-new/identity-verification) - Cutting-edge identity verification solution resistant to deep fakes

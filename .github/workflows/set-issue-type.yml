@@ -1,0 +1,77 @@
+name: Set Issue Type from Template
+on:
+  issues:
+    types: [opened]
+  workflow_call:
+    inputs:
+      issue-node-id:
+        required: true
+        type: string
+      issue-body:
+        required: true
+        type: string
+
+permissions:
+  issues: write
+
+jobs:
+  set-type:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Detect template and set issue type
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NODE_ID: ${{ inputs.issue-node-id || github.event.issue.node_id }}
+          ISSUE_BODY: ${{ inputs.issue-body || github.event.issue.body }}
+        run: |
+          if echo "$ISSUE_BODY" | grep -q "^### Description"; then
+            TYPE_ID="IT_kwDOAJoha84AEoBa"
+            TYPE_NAME="Feature"
+          elif echo "$ISSUE_BODY" | grep -q "^### Task specification"; then
+            TYPE_ID="IT_kwDOAJoha84AEoBV"
+            TYPE_NAME="Task"
+          elif echo "$ISSUE_BODY" | grep -q "^### Affected product"; then
+            TYPE_ID="IT_kwDOAJoha84AEoBX"
+            TYPE_NAME="Bug"
+          elif echo "$ISSUE_BODY" | grep -q "^### Epic specification"; then
+            TYPE_ID="IT_kwDOAJoha84BeLNu"
+            TYPE_NAME="Epic"
+          elif echo "$ISSUE_BODY" | grep -q "^### Initiative specification"; then
+            TYPE_ID="IT_kwDOAJoha84B3pA8"
+            TYPE_NAME="Initiative"
+          else
+            echo "No known template fingerprint detected — skipping."
+            exit 0
+          fi
+
+          echo "Detected: $TYPE_NAME ($TYPE_ID)"
+
+          gh api graphql -f query="
+            mutation {
+              updateIssue(input: {
+                id: \"$ISSUE_NODE_ID\",
+                issueTypeId: \"$TYPE_ID\"
+              }) {
+                issue { number issueType { name } }
+              }
+            }
+          "
+
+      - name: Add to Tracking project
+        # Only runs for direct issues: opened trigger, not workflow_call
+        if: github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NODE_ID: ${{ github.event.issue.node_id }}
+        run: |
+          gh api graphql -f query="
+            mutation {
+              addProjectV2ItemById(input: {
+                projectId: \"PVT_kwDOAJoha84AujBf\",
+                contentId: \"$ISSUE_NODE_ID\"
+              }) {
+                item { id }
+              }
+            }
+          "
+          echo "Added to Tracking project"

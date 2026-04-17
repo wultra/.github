@@ -24,6 +24,12 @@ jobs:
           ISSUE_NODE_ID: ${{ inputs.issue-node-id || github.event.issue.node_id }}
           ISSUE_BODY: ${{ inputs.issue-body || github.event.issue.body }}
         run: |
+          CURRENT_TYPE=$(gh api graphql -f query="{ node(id: \"$ISSUE_NODE_ID\") { ... on Issue { issueType { name } } } }" --jq '.data.node.issueType.name // empty')
+          if [ -n "$CURRENT_TYPE" ]; then
+            echo "Issue type already set to '$CURRENT_TYPE' — skipping."
+            exit 0
+          fi
+
           if echo "$ISSUE_BODY" | grep -q "^### Description"; then
             TYPE_ID="IT_kwDOAJoha84AEoBa"
             TYPE_NAME="Feature"

@@ -2,7 +2,7 @@
 
 ![Wultra](https://github.com/wultra/.github/blob/main/profile/cover-kc.jpg?raw=true)
 
-[Wultra](https://wultra.com) delivers seamless, post-quantum digital identity solutions for banks and fintech companies, enhancing security and simplifying the transition to future standards.
+[Wultra](https://wultra.com) delivers seamless, adaptive, post-quantum authentication solutions for banks and fintech companies, enhancing security and simplifying the transition to future standards.
 
 Powered by quantum-resistant cryptography, the platform delivers top-tier protection, a developer-friendly interface, and a passwordless user experience – all fully aligned with global regulations. Financial institutions in more than 25 countries worldwide trust Wultra’s solution. The system meets the strict requirements of upcoming directives such as PSD3/PSR1 and eIDAS 2.0, while offering superior protection against emerging cyber threats.
 

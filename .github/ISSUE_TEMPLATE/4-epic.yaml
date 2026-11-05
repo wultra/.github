@@ -1,0 +1,13 @@
+name: Epic
+description: New Epic
+type: 'Epic'
+projects: ["wultra/43"]
+
+body:
+  - type: textarea
+    id: epic-specification
+    attributes:
+      label: Epic specification
+      placeholder: This Epic tracks..
+    validations:
+      required: false

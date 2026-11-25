@@ -1,7 +1,6 @@
 name: Feature
 description: New Feature
 type: 'Feature'
-projects: ["wultra/43"]
 
 body:
 

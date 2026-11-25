@@ -1,7 +1,6 @@
 name: Initiative
 description: New Initiative
 type: 'Initiative'
-projects: ["wultra/43"]
 
 body:
   - type: textarea

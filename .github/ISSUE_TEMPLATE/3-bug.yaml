@@ -1,7 +1,6 @@
 name: Bug
 description: New Bug
 type: 'Bug'
-projects: ["wultra/43"]
 
 body:
 

@@ -1,7 +1,6 @@
 name: Epic
 description: New Epic
 type: 'Epic'
-projects: ["wultra/43"]
 
 body:
   - type: textarea

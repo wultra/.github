@@ -1,0 +1,13 @@
+name: Initiative
+description: New Initiative
+type: 'Initiative'
+projects: ["wultra/43"]
+
+body:
+  - type: textarea
+    id: initiative-specification
+    attributes:
+      label: Initiative specification
+      placeholder: This Initiative tracks..
+    validations:
+      required: false

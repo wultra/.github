@@ -1,7 +1,6 @@
 name: Task
 description: New Task
 type: 'Task'
-projects: ["wultra/43"]
 
 body:
   - type: textarea

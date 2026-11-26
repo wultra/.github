@@ -1,0 +1,12 @@
+name: Initiative
+description: New Initiative
+type: 'Initiative'
+
+body:
+  - type: textarea
+    id: initiative-specification
+    attributes:
+      label: Initiative specification
+      placeholder: This Initiative tracks..
+    validations:
+      required: false
